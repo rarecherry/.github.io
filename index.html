@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RARE CHERRY</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="logo final prueba.png">
+
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>RARE <span class="blanco">CHE</span><span>RR</span><span class="blanco">Y</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="index.html">INICIO</a>
+                    <a href="producto.html">CAMISAS</a>
+                    <a href="chaqueta.html">CHAQUETAS</a>
+                    <a href="lenceria.html">LENCERIAS</a>
+                    <a href="Vestidos.html">VESTIDOS</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>TE DAMOS LA BIENVENIDA </h2>
+                    <a href="producto.html" class="btn bordes">VER CATALOGO</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="rare.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Bienvenido a!</p>
+            <h1>RARE CHERRY</h1>
+            <p> Aquí encontrarás una amplia selección de prendas únicas y originales, diseñadas con pasión y cuidado por nuestro equipo creativo. Desde vestidos elegantes hasta ropa casual y accesorios de moda, estamos seguros de que encontrarás algo que te encantará.
+                Gracias por visitar nuestra página de ropa diseñada. Esperamos que disfrutes navegando por nuestra selección y que encuentres algo que te haga sentir hermoso/a y confiado/a. ¡Feliz compra!     
+            </p>
+            <a href="https://api.whatsapp.com/send?phone=593962609363&text=TE+DAMOS+LA+BIENVENIDA+A+RARE+CHERRY+VÍSTETE+CON+ESTILO+ELIGE+CALIDAD+Y+CONFÍA+EN+NOSOTROS" target="_blank" class="btn btn-rojo">Contactanos</a> <br>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img data-src="portada 1.jpg" alt="mujer comiendo pizza">
+            </div>
+            <div class="imagenes2">
+                <img data-src="portada 2.jpeg" alt="mujeres comiendo pizza">
+                <img data-src="portada 3.jpeg" alt="plato con pasta">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor">
+        <h2 class="texto-platillos">Articulos populares</h2>
+        <div class="botones-platillos">
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="ensaladas btn btn-verde">Camisas</button>
+            <button class="pasta btn btn-verde">chaquetas </button>
+            <button class="pizza btn btn-verde"> Lencerias</button>
+            <button class="postres btn btn-verde">Vestidos </button>
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+         
+            <img data-src="camisa 3.jpeg" alt="ensalada">
+                <h2>Camisa con campucha</h2>
+                <p>Tallas Disponibles : XS-S-M-L-XL </p>
+                <div class="precio">
+                    <p>$25.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "producto.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="camisa 1.jpg" alt="ensalada">
+                <h2>Camisa Estampada "negro"</h2>
+                <p>Tallas Disponibles : XS-S-M-L-XL</p>
+                <div class="precio">
+                    <p>$20.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "producto.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="camisa 2.jpg" alt="ensalada">
+                <h2>camisa Estampada "blanco"</h2>
+                <p>Tallas Disponibles : XS-S-M-L-XL</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "producto.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="chaqueta 1.jpg" alt="pasta">
+                <h2>Chaqueta Jean "Negro" </h2>
+                <p>Tallas Disponibles : XS-S-M-L</p>
+                <div class="precio">
+                    <p>$35.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "chaqueta.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="chaqueta 2.jpg" alt="pasta">
+                <h2>Chaqueta Jean</h2>
+                <p>Tallas Disponibles : XS-S-M-L</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "chaqueta.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="chaqueta 3.jpg" alt="pasta">
+                <h2>Chaqueta Jean "Rosado"</h2>
+                <p>Tallas Disponibles : XS-S-M-L</p>
+                <div class="precio">
+                    <p>$30.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "chaqueta.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="lenceria 1.jpg" alt="pizza">
+                <h2>Lenceria Femenina "Rojo"</h2>
+                <p>Tallas Disponibles : S-M-L-XL</p>
+                <div class="precio">
+                    <p>$35.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "lenceria.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="lenceria 2.jpg" alt="pizza">
+                <h2>Lenceria Femenina "Negro" </h2>
+                <p>Tallas Disponibles : S-M-L-XL</p>
+                <div class="precio">
+                    <p>$25.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "producto.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="lenceria 3.jpg" alt="pizza">
+                <h2>Lenceria Femenina "Rojo"</h2>
+                <p>Tallas Disponibles : S-M-L-XL</p>
+                <div class="precio">
+                    <p>$30.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "producto.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="vestido 1.jpg" alt="postre">
+                <h2>Nombre del producto</h2>
+                <p>Tallas Disponibles : S-M-L-XL</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "producto.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="vestido 2.jpg" alt="postre">
+                <h2>vestido </h2>
+                <p>Tallas Disponibles : S-M-L-XL</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "producto.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="vestido 3.jpg" alt="postre">
+                <h2>Nombre del producto </h2>
+                <p>Tallas Disponibles : S-M-L-XL</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button onclick="redirectToStore()"><i class="fas fa-shopping-basket"></i></button>
+
+                    <script>
+                        function redirectToStore() {
+                          window.location.href = "producto.html"; // Reemplaza esto con la URL de la página que deseas redirigir
+                        }
+                      </script>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>"Vístete con estilo, elige calidad y confía en nosotros"</h2>
+            <p>Nuestra promesa ofrecer prendas atractivas y de alta calidad, mientras nos comprometemos a brindar un servicio excepcional al cliente. Confía en nosotros para encontrar las prendas que te harán lucir y sentir genial.</p>
+            <a href="https://api.whatsapp.com/send?phone=593962609363&text=TE+DAMOS+LA+BIENVENIDA+A+RARE+CHERRY+VÍSTETE+CON+ESTILO+ELIGE+CALIDAD+Y+CONFÍA+EN+NOSOTROS" target="_blank" class="btn btn-verde">Realiza tu pedido ahora </a>
+        </div>
+    </div>
+
+   
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto">
+            <h3>Contactanos</h3>
+            
+            <p><i class="fas fa-envelope"></i>CORREO: rarecherry96@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>CONTACTO: +593 962609363</p>
+            <div class="redes-sociales">
+                <a href="https://instagram.com/rarecherry.ecu?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fab fa-instagram">  rarecherry.ecu</i></a><br>
+
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Andres jesus " id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input type="text" placeholder="Andradez cedeño" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="ejemplo@gmail.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="+593 43 779 9410" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+            </div>
+
+            <div id="ventana-emergente" class="cuadro-flotante">
+                <p id="mensaje-confirmacion"></p>
+              </div>
+
+              <script>
+                const form = document.querySelector('form'); // Selecciona el formulario
+                const btnEnviar = document.querySelector('#btn-enviar'); // Selecciona el botón "Enviar"
+                const ventanaEmergente = document.querySelector('#ventana-emergente'); // Selecciona el cuadro flotante
+                const mensajeConfirmacion = document.querySelector('#mensaje-confirmacion'); // Selecciona el mensaje de confirmación dentro del cuadro flotante
+              
+                // Agrega un evento de escucha para cuando se envíe el formulario
+                form.addEventListener('submit', function (event) {
+                  event.preventDefault(); // Evita que el formulario se envíe automáticamente
+              
+                  // Muestra el cuadro flotante con un mensaje de confirmación
+                  mensajeConfirmacion.textContent = 'El formulario ha sido enviado con éxito';
+                  ventanaEmergente.style.display = 'block';
+              
+                  // Espera 3 segundos antes de ocultar el cuadro flotante
+                  setTimeout(function () {
+                    ventanaEmergente.style.display = 'none';
+                  }, 3000);
+              
+                  // Envía el formulario
+                  form.submit();
+                });
+              </script>
+              
+              
+            
+        </form>
+    </div>
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>24 horas del día</p>
+                <div class="redes-sociales redes-pie">
+                    
+                    <a href="https://instagram.com/rarecherry.ecu?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fab fa-instagram">   rarecherry.ecu</i></a><br>
+
+                   
+                </div>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>suscribete para recibir más noticias</p>
+                <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-verde" value="Suscribirse">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2023</p>
+    </footer>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
